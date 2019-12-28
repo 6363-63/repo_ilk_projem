@@ -37,7 +37,7 @@ class TextFieldExample implements ActionListener {
         String s1=tf1.getText();
         String s2=tf2.getText();
 
-
+        System.out.println("Adsss"+s1+s2);
         Ogrenci o = new Ogrenci(Integer.parseInt(s2),s1,155);
         System.out.println(Kisi.Kisiler.get(0).toString());
         System.out.println(s1+s2);
